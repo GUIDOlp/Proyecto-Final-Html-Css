@@ -241,25 +241,28 @@ ul li{
 .contenedorCarritofooter{
     margin-top: 150px;
 }
-
 div img{
     width: 35px;
 }
 .contenedorCarritofooter a{
     padding: 10px;
 }
-footer div a {
+footer .contenedorCarritofooter a {
     text-decoration: none;
     color: black;
 }
 .crearCuenta{
+    text-decoration: none;
+    color: black;
     position: relative;
     top: 10px;
 }
- footer div a {
+ .contenedorCarritofooter a {
     color: #A25B5B;
  }
- 
+.crearCuenta:hover{
+    color: #A25B5B;
+} 
 /* columna 3 */
 .logoTelefono{
     width: 25px;
