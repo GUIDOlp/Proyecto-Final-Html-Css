@@ -76,10 +76,8 @@ span :hover{
 }
 
 /* main seccion productos */
-.mainFlex{
-    display: flex;    
-}
-.mainFlex{
+
+.mainGrid{
     display: grid;
     grid-template-areas: 
     "aside main";
@@ -267,11 +265,11 @@ ul li{
     } 
 }
 
-@media (max-width:930px) {
+@media (max-width:1230px) {
     aside{
         display: none;
     }
-    .mainFlex{
+    .mainGrid{
         display: grid;
         grid-template-areas: 
         "main";
