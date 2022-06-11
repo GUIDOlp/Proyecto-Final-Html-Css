@@ -77,12 +77,14 @@ span :hover{
 
 /* main seccion productos */
 .mainFlex{
-    display: flex;
     display: grid;
     grid-template-areas: 
     "aside main";
     grid-template-columns: 20% auto;
     grid-template-rows: 1fr;
+}
+.mainFlex{
+    display: flex;
 }
 aside{
     display: flex;
