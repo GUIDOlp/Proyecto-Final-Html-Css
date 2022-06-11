@@ -217,7 +217,7 @@ footer{
 .col{
     margin-top: 15px;
 }
-
+/*columna 1 */
 ul li a{
     text-decoration: none;
      color: black;
@@ -229,7 +229,7 @@ ul li{
 .rutaFooter:hover{
     color: #A25B5B;
 }
-
+/*columna 2 */
 .logoInstagram1{
     width: 50px;
     border-radius: 15px;
@@ -238,6 +238,27 @@ ul li{
     width: 50px;
     border-radius: 15px;
 }
+.contenedorCarritofooter{
+    margin-top: 150px;
+}
+div img{
+    width: 35px;
+}
+.contenedorCarritofooter a{
+padding: 10px;
+}
+ footer div a{
+    text-decoration: none;
+    color: black;
+ }
+ .crearCuenta{
+    position: relative;
+    top: 10px;
+ }
+ footer div a:hover{
+    color: #A25B5B;
+ }
+/* columna 3 */
 .logoTelefono{
     width: 25px;
 }
@@ -279,6 +300,18 @@ ul li{
     }
 }
 
+@media (min-width:453px) and (max-width: 495px) {
+    .contenedorCarritofooter{
+        position: relative;
+        top: -40px;
+    }
+}
+@media (min-width: 453px) and (max-width: 495px) {
+    .crearCuenta{
+        position: relative;
+        top: -40px;
+    }
+}
 /* media queries/ tablet */
 @media(min-width:769px) and (max-width:991px) {
     .telefono{
