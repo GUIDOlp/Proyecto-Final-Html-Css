@@ -247,22 +247,21 @@ div img{
 .contenedorCarritofooter a{
     padding: 10px;
 }
-footer .contenedorCarritofooter a {
+footer .contenedorCarritofooter a{
     text-decoration: none;
     color: black;
 }
+
 .crearCuenta{
     text-decoration: none;
     color: black;
     position: relative;
     top: 10px;
 }
- .contenedorCarritofooter a {
-    color: #A25B5B;
- }
 .crearCuenta:hover{
     color: #A25B5B;
-} 
+}
+ 
 /* columna 3 */
 .logoTelefono{
     width: 25px;
