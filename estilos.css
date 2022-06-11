@@ -268,7 +268,9 @@ ul li{
 @media (max-width:1230px) {
     aside{
         display: none;
-    }
+}
+}
+@media (max-width: 1230px) {
     .mainGrid{
         display: grid;
         grid-template-areas: 
