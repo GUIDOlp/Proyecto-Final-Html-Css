@@ -1,0 +1,61 @@
+ // media queries
+
+ /* media queries/ mobile first */
+ @media (min-width: 445px) and (max-width: 768px) {
+    .telefono{
+        font-size: 13px;
+        position: relative;
+        left: 7px;
+    } 
+}
+
+@media (max-width:1230px) {
+  .mainGrid aside{
+        display: none;
+}
+}
+@media (max-width: 1230px) {
+    .mainGrid{
+        display: grid;
+        grid-template-areas: 
+        "main";
+        grid-template-columns: 100%;
+    }
+}
+
+@media (min-width:453px) and (max-width: 495px) {
+    .contenedorCarritofooter{
+        position: relative;
+        top: -40px;
+    }
+}
+@media (min-width: 453px) and (max-width: 495px) {
+    .crearCuenta{
+        position: relative;
+        top: -40px;
+    }
+}
+/* media queries/ tablet */
+@media(min-width:769px) and (max-width:991px) {
+    .telefono{
+        font-size: 13px;
+        position: relative;
+        left: 7px;
+    }
+}
+
+/* media queries/ desktop */
+@media (min-width:1200px) and (max-width: 1399px) {
+    .telefono{
+        font-size: 15px;
+        position: relative;
+        right: 65px;
+    }
+}
+
+@media (min-width:1400px) and (max-width:1600px) {
+  .telefono{
+        position: relative;
+        right: 100px;
+    }
+}

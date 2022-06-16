@@ -1,342 +1,335 @@
-*{
-    margin: 0;
-    padding: 0;
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* el link de abajo pertenece a la familia roboto (fuentes tipograficas). recordar que la pagina es google fonts. roboto es el nombre de la fuente */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
-body{
-    font-family: 'Roboto', sans-serif; 
+
+body {
+  font-family: "Roboto", sans-serif;
 }
+/* Header */
 
-/* encabezado */
-.bg-verde{
-    background-color: #5F7161;
-}
-
-.logoMarca{
-    width: 170px;
+.bg-verde {
+  background-color: #5F7161;
 }
 
-.navbar-nav{    
-    font-size: 23px; 
+.logoMarca {
+  width: 170px;
 }
 
-ul li{
-    padding: 20px;
+.navbar-nav {
+  font-size: 23px;
 }
 
-.tituloPagina{
-    background-color: #A25B5B;
+ul li {
+  padding: 20px;
 }
 
-div p{
-    text-align: center;  
+.tituloPagina {
+  background-color: #A25B5B;
+}
+.tituloPagina p {
+  text-align: center;
+}
+/* Main inicio */
+
+.slide {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.slide img {
+  height: 90vh;
 }
 
-/* main seccion inicio */
-
-.slide{
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.slide img{
-    height: 90vh;
+.fotoLogo {
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.fotoLogo{
-    width: 350px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.categoriaCosmeticos {
+  text-align: center;
+  color: black;
+  font-size: 25px;
 }
-.categoriaCosmeticos{
-    text-align: center;
-    color: black;
-    font-size: 25px;
+.categoriaCosmeticos article {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-main article{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.categoriaCosmeticos article span {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-span{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.categoriaCosmeticos article span .categorias {
+  background-color: #A25B5B;
+  color: black;
+  padding: 10px 15px;
 }
-span .categorias{
-    background-color: #A25B5B;
-    color: black;
-    padding: 10px 15px;   
+.categoriaCosmeticos article span .categorias:hover {
+  color: dimgray;
 }
-span :hover{
-    color: dimgray;
-}
+/* Main productos */
 
-/* main seccion productos */
+.mainGrid {
+  display: grid;
+  grid-template-areas: "aside main";
+  grid-template-columns: 20% auto;
+  grid-template-rows: 1fr;
+}
+.mainGrid aside {
+  background-color: #F9E4D4;
+  margin-top: -8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.mainGrid aside h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+.mainGrid aside span {
+  text-align: center;
+  font-size: 20px;
+}
+.mainGrid aside span .asideProductos {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.mainGrid aside span .asideProductos:hover {
+  color: #A25B5B;
+}
+.mainGrid .galeria {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.mainGrid .galeria .galeriaProductos {
+  width: 240px;
+}
+.mainGrid .galeria h3 {
+  text-align: center;
+  margin-top: 10px;
+  background-color: cadetblue;
+}
+.mainGrid .galeria h3 .fotoProductos {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.mainGrid .galeria h3 .fotoProductos:hover {
+  color: #A25B5B;
+}
+/* Main nosotros */
 
-.mainGrid{
-    display: grid;
-    grid-template-areas: 
-    "aside main";
-    grid-template-columns: 20% auto;
-    grid-template-rows: 1fr;
-}
-aside{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: #F9E4D4;
-    margin-top: -8px;
-    padding: 20px;
-}
-aside h3{
-    text-align: center;
-    margin-top: 10px;
-}
-aside span{
-    text-align: center;
-    font-size: 18px;
-}
-.asideProductos{
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}
-.asideProductos:hover{
-    color: #A25B5B;
-}
-.galeria{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.galeriaProductos{
-    width: 240px;
-}
-
-.galeria h3{
-    text-align: center;
-    margin-top: 10px;
-    background-color: cadetblue;
-}
-.fotoProductos{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-.fotoProductos:hover{
-    color: #A25B5B;
-}
-
-/* main seccion nosotros */
 .seccionNosotros h2 {
-    text-align: center;
-    color: rgb(27, 205, 205);
-}
-.seccionNosotros p{
-    text-align: justify;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: 20px;
-    color: black;
-}
-/* main seccion contacto */
-.seccionContacto p{
-    font-size: 25px;
-    margin-left: 20px;
+  text-align: center;
+  color: rgb(27, 205, 205);
 }
 
-.logoInstagram{
-    width: 35px;
-}
-.seccionContacto h4{
-    font-size: 25px;
-    margin-left: 20px;
-    color: black;
-    text-align: center;
-}
-.nombreContacto{
-    margin-left: 20px;
-    font-size: 25px;
+.seccionNosotros p {
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+  color: black;
 }
 
-.apellidoContacto{
-    margin-left: 20px;
-    font-size: 25px;
+.seccionContacto p {
+  font-size: 25px;
+  margin-left: 20px;
+}
+/* Main contacto */
+
+.seccionContacto p .logoInstagram {
+  width: 35px;
 }
 
-.emailContacto{
-    margin-left: 20px;
-    font-size: 25px;
+.seccionContacto h4 {
+  font-size: 25px;
+  margin-left: 20px;
+  color: black;
+  text-align: center;
 }
 
-.mensaje{
-    margin-left: 20px;
-    font-size: 25px;
+.nombreContacto {
+  margin-left: 20px;
+  font-size: 25px;
 }
 
-/* main seccion preg frecuentes */
-.seccionPreguntasfrecuentes{
-    text-align: center;
-    font-size: 20px;
-}
-.seccionPreguntasfrecuentes h3{
-    color: rgb(27, 205, 205);
-    margin-top: 20px;
-}
-.seccionPreguntasfrecuentes p{
-    text-align: justify;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-.seccionPreguntasfrecuentes h4{
-    text-align: left;
-    margin-left: 20px;
-}
-.seccionPreguntasfrecuentes span{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.mediosDepago{
-    width: 60px;
-}
-.mediosDepago1{
-    width: 80px;
-}
-.mediosDepago2{
-    width: 110px;
-}
-/* pie de pagina */
-footer{
-    background-color: dimgray;
-}
-.col{
-    margin-top: 15px;
-}
-/*columna 1 */
-ul li a{
-    text-decoration: none;
-     color: black;
-}
-ul li{
-    list-style: none;
+.apellidoContacto {
+  margin-left: 20px;
+  font-size: 25px;
 }
 
-.rutaFooter:hover{
-    color: #A25B5B;
-}
-/*columna 2 */
-.logoInstagram1{
-    width: 50px;
-    border-radius: 15px;
-}
-.whatsapp{
-    width: 50px;
-    border-radius: 15px;
-}
-.contenedorCarritofooter{
-    margin-top: 150px;
-}
-div img{
-    width: 35px;
-}
-.contenedorCarritofooter a{
-    padding: 10px;
-}
-footer .contenedorCarritofooter a{
-    text-decoration: none;
-    color: black;
+.emailContacto {
+  margin-left: 20px;
+  font-size: 25px;
 }
 
-.crearCuenta{
-    text-decoration: none;
-    color: black;
-    position: relative;
-    top: 10px;
+.mensaje {
+  margin-left: 20px;
+  font-size: 25px;
 }
-.crearCuenta:hover{
-    color: #A25B5B;
-}
- 
-/* columna 3 */
-.logoTelefono{
-    width: 25px;
-}
-.telefono{
-    position: relative;
-    top: -25px;
-    right: 45px;
-}
+/* Main preg frecuentes */
 
-.iframe{
-    width: 170px;
+.seccionPreguntasfrecuentes {
+  text-align: center;
+  font-size: 20px;
 }
+.seccionPreguntasfrecuentes h3 {
+  color: rgb(27, 205, 205);
+  margin-top: 20px;
+}
+.seccionPreguntasfrecuentes p {
+  text-align: justify;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.seccionPreguntasfrecuentes h4 {
+  text-align: left;
+  margin-left: 20px;
+}
+.seccionPreguntasfrecuentes span {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.seccionPreguntasfrecuentes span .mediosDepago {
+  width: 60px;
+}
+.seccionPreguntasfrecuentes span .mediosDepago1 {
+  width: 80px;
+}
+.seccionPreguntasfrecuentes span .mediosDepago2 {
+  width: 110px;
+}
+/* Footer */
 
-.copyright{
-    color: white;
-    font-size: 20px;
+footer {
+  background-color: dimgray;
+}
+footer .col {
+  margin-top: 15px;
+}
+footer .col ul li {
+  list-style: none;
+}
+footer .col ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer .col ul li a:hover {
+  color: #A25B5B;
+}
+footer .logoInstagram1 {
+  width: 50px;
+  border-radius: 15px;
+}
+footer .whatsapp {
+  width: 50px;
+  border-radius: 15px;
+}
+footer .contenedorCarritofooter {
+  margin-top: 150px;
+}
+footer .contenedorCarritofooter img {
+  width: 35px;
+}
+footer .contenedorCarritofooter a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+footer .crearCuenta {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 10px;
+}
+footer .crearCuenta:hover {
+  color: #A25B5B;
+}
+footer .logoTelefono {
+  width: 25px;
+}
+footer .telefono {
+  position: relative;
+  top: -25px;
+  left: 45px;
+}
+footer .iframe {
+  width: 170px;
+}
+footer .copyright {
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 /* media queries/ mobile first */
 @media (min-width: 445px) and (max-width: 768px) {
-    .telefono{
-        font-size: 13px;
-        position: relative;
-        left: 7px;
-    } 
-}
-
-@media (max-width:1230px) {
-    aside{
-        display: none;
-}
+  .telefono {
+    font-size: 13px;
+    position: relative;
+    left: 7px;
+  }
 }
 @media (max-width: 1230px) {
-    .mainGrid{
-        display: grid;
-        grid-template-areas: 
-        "main";
-        grid-template-columns: 100%;
-    }
+  .mainGrid aside {
+    display: none;
+  }
 }
-
-@media (min-width:453px) and (max-width: 495px) {
-    .contenedorCarritofooter{
-        position: relative;
-        top: -40px;
-    }
+@media (max-width: 1230px) {
+  .mainGrid {
+    display: grid;
+    grid-template-areas: "main";
+    grid-template-columns: 100%;
+  }
 }
 @media (min-width: 453px) and (max-width: 495px) {
-    .crearCuenta{
-        position: relative;
-        top: -40px;
-    }
+  .contenedorCarritofooter {
+    position: relative;
+    top: -40px;
+  }
+}
+@media (min-width: 453px) and (max-width: 495px) {
+  .crearCuenta {
+    position: relative;
+    top: -40px;
+  }
 }
 /* media queries/ tablet */
-@media(min-width:769px) and (max-width:991px) {
-    .telefono{
-        font-size: 13px;
-        position: relative;
-        left: 7px;
-    }
+@media (min-width: 769px) and (max-width: 991px) {
+  .telefono {
+    font-size: 13px;
+    position: relative;
+    left: 7px;
+  }
 }
-
 /* media queries/ desktop */
-@media (min-width:1200px) and (max-width: 1399px) {
-    .telefono{
-        font-size: 15px;
-        position: relative;
-        right: 65px;
-    }
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .telefono {
+    font-size: 15px;
+    position: relative;
+    right: 65px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .telefono {
+    position: relative;
+    right: 100px;
+  }
 }
 
-@media (min-width:1400px) and (max-width:1600px) {
-  .telefono{
-        position: relative;
-        right: 100px;
-    }
-}
+/*# sourceMappingURL=estilos.css.map */

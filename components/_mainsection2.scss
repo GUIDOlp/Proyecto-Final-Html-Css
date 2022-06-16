@@ -1,0 +1,59 @@
+@import "../scss/colores";
+@import "../scss/tipografias";
+
+
+// main productos
+.mainGrid{
+  display: grid;
+  grid-template-areas: 
+  "aside main";
+  grid-template-columns: 20% auto;
+  grid-template-rows: 1fr;
+   aside{
+    background-color: $colorcinco;
+    margin-top: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+         h3{
+          text-align: center;
+          margin-top: 10px;
+         }
+          span{
+            text-align: center;
+            font-size: $fontsize3;
+             .asideProductos{
+              text-decoration: none;
+              color: $colortres;
+              text-align: center;
+               &:hover{
+                color: $colordos;
+               }
+             }
+          }
+    }
+      .galeria{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 35px;
+        margin-bottom: 35px;
+         .galeriaProductos{
+          width: 240px;
+         } 
+           h3{
+            text-align: center;
+            margin-top: 10px;
+            background-color: $colorseis;
+              .fotoProductos{
+                text-decoration: none;
+                color: $colortres;
+                font-size: $fontsize3;
+                 &:hover{
+                  color: $colordos;
+                 }
+              }
+           }
+       }    
+    }
+   

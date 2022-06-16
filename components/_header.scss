@@ -1,0 +1,23 @@
+@import "../scss/colores";
+@import "../scss/tipografias";
+
+//header
+
+.bg-verde{
+    background-color: $coloruno;
+}
+.logoMarca{
+    width: 170px;
+}
+.navbar-nav{
+    font-size: $fontsize1;
+}
+ul li{
+    padding: 20px;
+}
+.tituloPagina{
+    background-color: $colordos;
+    p{
+        text-align: center;
+    }
+}
