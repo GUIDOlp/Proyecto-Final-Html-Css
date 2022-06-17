@@ -1,16 +1,12 @@
-/* Reset */
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
-
 body {
   font-family: "Roboto", sans-serif;
 }
-/* Header */
 
 .bg-verde {
   background-color: #5F7161;
@@ -34,7 +30,6 @@ ul li {
 .tituloPagina p {
   text-align: center;
 }
-/* Main inicio */
 
 .slide {
   margin-top: 40px;
@@ -74,7 +69,6 @@ ul li {
 .categoriaCosmeticos article span .categorias:hover {
   color: dimgray;
 }
-/* Main productos */
 
 .mainGrid {
   display: grid;
@@ -128,7 +122,6 @@ ul li {
 .mainGrid .galeria h3 .fotoProductos:hover {
   color: #A25B5B;
 }
-/* Main nosotros */
 
 .seccionNosotros h2 {
   text-align: center;
@@ -142,7 +135,6 @@ ul li {
   font-size: 20px;
   color: black;
 }
-/* Main contacto */
 
 .seccionContacto p {
   font-size: 25px;
@@ -178,7 +170,6 @@ ul li {
   margin-left: 20px;
   font-size: 25px;
 }
-/* Main preg frecuentes */
 
 .seccionPreguntasfrecuentes {
   text-align: center;
@@ -211,7 +202,6 @@ ul li {
 .seccionPreguntasfrecuentes span .mediosDepago2 {
   width: 110px;
 }
-/* Footer */
 
 footer {
   background-color: dimgray;
@@ -219,8 +209,6 @@ footer {
 footer .col {
   margin-top: 15px;
 }
-/* columna 1 */
-
 footer .col ul li {
   list-style: none;
 }
@@ -231,8 +219,6 @@ footer .col ul li a {
 footer .col ul li a:hover {
   color: #A25B5B;
 }
-/* columna 2 */
-
 footer .logoInstagram1 {
   width: 50px;
   border-radius: 15px;
@@ -261,12 +247,10 @@ footer .crearCuenta {
 footer .crearCuenta:hover {
   color: #A25B5B;
 }
-/* columna 3 */
-
 footer .telefono {
   font-size: 18px;
   position: relative;
-  right: 0;
+  right: 0px;
 }
 footer .iframe {
   width: 180px;
