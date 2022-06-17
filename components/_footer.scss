@@ -46,16 +46,13 @@ footer{
             color: $colordos;
          }
     }
-    .logoTelefono{
-        width: 25px;
-    }
     .telefono{
-        position: relative;
-        top: -25px;
-        left: 45px;
+      font-size: $fontsize4;
+      position: relative;
+      right: 0;
     }
     .iframe{
-        width: 170px;
+        width: 180px;
     }
     .copyright{
         color: $colorocho;

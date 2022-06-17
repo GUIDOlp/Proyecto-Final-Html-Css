@@ -1,14 +1,7 @@
  // media queries
 
  /* media queries/ mobile first */
- @media (min-width: 445px) and (max-width: 768px) {
-    .telefono{
-        font-size: 13px;
-        position: relative;
-        left: 7px;
-    } 
-}
-
+ 
 @media (max-width:1230px) {
   .mainGrid aside{
         display: none;
