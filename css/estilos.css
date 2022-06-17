@@ -4,13 +4,11 @@
   margin: 0;
   padding: 0;
 }
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
 }
-
 /* Header */
 
 .bg-verde {
@@ -279,6 +277,16 @@ footer .copyright {
 }
 
 /* media queries/ mobile first */
+@media (max-width: 350px) {
+  .slide img {
+    height: 60vh;
+  }
+}
+@media (max-width: 350px) {
+  .fotoLogo {
+    width: 230px;
+  }
+}
 @media (max-width: 1230px) {
   .mainGrid aside {
     display: none;
@@ -289,6 +297,11 @@ footer .copyright {
     display: grid;
     grid-template-areas: "main";
     grid-template-columns: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .mainGrid .galeria .galeriaProductos {
+    width: 200px;
   }
 }
 @media (min-width: 453px) and (max-width: 495px) {

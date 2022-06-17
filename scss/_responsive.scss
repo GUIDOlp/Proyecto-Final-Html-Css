@@ -1,12 +1,24 @@
  // media queries
 
  /* media queries/ mobile first */
- 
+@media (max-width: 350px) {
+    .slide img{
+      height: 60vh;
+    }
+  }
+  
+@media (max-width: 350px) {
+    .fotoLogo{
+      width: 230px;
+    }
+  } 
+
 @media (max-width:1230px) {
   .mainGrid aside{
         display: none;
 }
 }
+
 @media (max-width: 1230px) {
     .mainGrid{
         display: grid;
@@ -15,6 +27,12 @@
         grid-template-columns: 100%;
     }
 }
+
+@media (max-width: 300px) {
+    .mainGrid .galeria .galeriaProductos{
+      width: 200px;
+    }
+  }
 
 @media (min-width:453px) and (max-width: 495px) {
     .contenedorCarritofooter{
