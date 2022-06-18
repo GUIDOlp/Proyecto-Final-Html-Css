@@ -6,12 +6,30 @@
       height: 60vh;
     }
   }
+
+@media (min-width: 180px) and (max-width: 230px) {
+  .slide img {
+    height: 50vh;
+  }
+}
   
 @media (max-width: 350px) {
     .fotoLogo{
       width: 230px;
     }
   } 
+
+@media (min-width: 180px) and (max-width: 230px) {
+  .fotoLogo{
+    width: 150px;
+  }
+}
+
+@media (min-width: 180px) and (max-width: 230px) {
+  .categoriaCosmeticos article span .categorias {
+    padding: 5px 5px;
+  }
+}
 
 @media (max-width:1230px) {
   .mainGrid aside{
@@ -34,6 +52,11 @@
     }
   }
 
+@media (min-width: 180px) and (max-width: 230px) {
+    .mainGrid .galeria .galeriaProductos {
+            width: 160px;
+    }
+  }
 @media (min-width:453px) and (max-width: 495px) {
     .contenedorCarritofooter{
         position: relative;
