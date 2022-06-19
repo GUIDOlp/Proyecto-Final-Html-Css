@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
 }
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
 body {
@@ -138,7 +137,6 @@ ul li {
   text-align: center;
   color: rgb(27, 205, 205);
 }
-
 .seccionNosotros p {
   text-align: justify;
   margin-left: 30px;
@@ -156,30 +154,25 @@ ul li {
 .seccionContacto p .logoInstagram {
   width: 35px;
 }
-
 .seccionContacto h4 {
   font-size: 25px;
   margin-left: 20px;
   color: black;
   text-align: center;
 }
-
-.nombreContacto {
+.seccionContacto .nombreContacto {
   margin-left: 20px;
   font-size: 25px;
 }
-
-.apellidoContacto {
+.seccionContacto .apellidoContacto {
   margin-left: 20px;
   font-size: 25px;
 }
-
-.emailContacto {
+.seccionContacto .emailContacto {
   margin-left: 20px;
   font-size: 25px;
 }
-
-.mensaje {
+.seccionContacto .mensaje {
   margin-left: 20px;
   font-size: 25px;
 }
@@ -288,12 +281,12 @@ footer .copyright {
 
 @media (max-width: 350px) {
   .slide img {
-    height: 60vh;
+    height: 50vh;
   }
 }
 @media (min-width: 180px) and (max-width: 230px) {
   .slide img {
-    height: 50vh;
+    height: 30vh;
   }
 }
 @media (max-width: 350px) {
@@ -334,13 +327,13 @@ footer .copyright {
   }
 }
 @media (min-width: 453px) and (max-width: 495px) {
-  .contenedorCarritofooter {
+  footer .contenedorCarritofooter {
     position: relative;
     top: -40px;
   }
 }
 @media (min-width: 453px) and (max-width: 495px) {
-  .crearCuenta {
+  footer .crearCuenta {
     position: relative;
     top: -40px;
   }
@@ -348,8 +341,8 @@ footer .copyright {
 /* media queries/ tablet */
 
 @media (min-width: 769px) and (max-width: 991px) {
-  .telefono {
-    font-size: 13px;
+  footer .telefono {
+    font-size: 15px;
     position: relative;
     left: 7px;
   }
@@ -357,14 +350,14 @@ footer .copyright {
 /* media queries/ desktop */
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .telefono {
-    font-size: 15px;
+  footer .telefono {
+    font-size: 17px;
     position: relative;
     right: 65px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1600px) {
-  .telefono {
+  footer .telefono {
     position: relative;
     right: 100px;
   }

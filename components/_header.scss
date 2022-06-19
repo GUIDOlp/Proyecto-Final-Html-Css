@@ -12,9 +12,13 @@
 .navbar-nav{
     font-size: $fontsize1;
 }
-ul li{
-    padding: 20px;
+
+ul {
+    li{
+        padding: 20px;
+    }
 }
+
 .tituloPagina{
     background-color: $colordos;
     p{

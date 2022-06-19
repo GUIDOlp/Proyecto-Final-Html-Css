@@ -2,15 +2,16 @@
 @import "../scss/tipografias";
 
 /* Main nosotros*/
-
-.seccionNosotros h2{
-    text-align: center;
-    color: $colorsiete;
-}
-.seccionNosotros p{
-    text-align: justify;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: $fontsize3;
-    color: $colortres; 
+.seccionNosotros{
+    h2{
+        text-align: center;
+        color: $colorsiete;
+    }
+     p{
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: $fontsize3;
+        color: $colortres; 
+     }
 }

@@ -4,21 +4,23 @@
 /* footer*/
 
 footer{
-    background-color: $colorcuatro;
-    .col{
-        margin-top: 15px;
-       ul li{
-        list-style: none;
-         a{
+  background-color: $colorcuatro;
+  .col{
+      margin-top: 15px;
+      ul{
+        li{
+          list-style: none;
+           a{
             text-decoration: none;
             color: $colortres;
              &:hover {
                 color: $colordos;
              }
-         }
-       }
+           }
+        }
     }
-    .logoInstagram1{
+}
+   .logoInstagram1{
         width: 50px;
         border-radius: 15px;   
     }
@@ -49,7 +51,7 @@ footer{
     .telefono{
       font-size: $fontsize4;
       position: relative;
-      right: 0px;
+      left: 0;
     }
     .iframe{
         width: 180px;

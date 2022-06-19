@@ -2,15 +2,19 @@
 
  /* media queries/ mobile first */
 @media (max-width: 350px) {
-    .slide img{
-      height: 60vh;
+  .slide {
+    img{
+      height: 50vh;
     }
+  } 
   }
 
 @media (min-width: 180px) and (max-width: 230px) {
-  .slide img {
-    height: 50vh;
-  }
+  .slide {
+    img{
+      height: 30vh;
+    }
+  } 
 }
   
 @media (max-width: 350px) {
@@ -26,15 +30,23 @@
 }
 
 @media (min-width: 180px) and (max-width: 230px) {
-  .categoriaCosmeticos article span .categorias {
-    padding: 5px 5px;
-  }
+  .categoriaCosmeticos {
+    article{
+      span {
+        .categorias{
+          padding: 5px 5px;
+        }
+      }
+    }
+  } 
 }
 
 @media (max-width:1230px) {
-  .mainGrid aside{
-        display: none;
-}
+  .mainGrid{
+    aside{
+      display: none;
+    }
+  } 
 }
 
 @media (max-width: 1230px) {
@@ -47,49 +59,67 @@
 }
 
 @media (max-width: 300px) {
-    .mainGrid .galeria .galeriaProductos{
-      width: 200px;
-    }
+    .mainGrid{
+      .galeria{
+        .galeriaProductos{
+          width: 200px;
+        }
+      }
+    } 
   }
 
 @media (min-width: 180px) and (max-width: 230px) {
-    .mainGrid .galeria .galeriaProductos {
-            width: 160px;
-    }
+    .mainGrid{
+      .galeria{
+        .galeriaProductos{
+          width: 160px;
+        }
+      }
+    } 
   }
 @media (min-width:453px) and (max-width: 495px) {
-    .contenedorCarritofooter{
+    footer{
+      .contenedorCarritofooter{
         position: relative;
         top: -40px;
     }
+  }
 }
 @media (min-width: 453px) and (max-width: 495px) {
-    .crearCuenta{
+    footer{
+      .crearCuenta{
         position: relative;
         top: -40px;
     }
+  }
 }
 /* media queries/ tablet */
 @media(min-width:769px) and (max-width:991px) {
+   footer{
     .telefono{
-        font-size: 13px;
-        position: relative;
-        left: 7px;
+      font-size: 15px;
+      position: relative;
+      left: 7px;
     }
+  } 
 }
 
 /* media queries/ desktop */
 @media (min-width:1200px) and (max-width: 1399px) {
-    .telefono{
-        font-size: 15px;
+    footer{
+      .telefono{
+        font-size: 17px;
         position: relative;
         right: 65px;
     }
+  }
 }
 
 @media (min-width:1400px) and (max-width:1600px) {
-  .telefono{
-        position: relative;
-        right: 100px;
+  footer{
+    .telefono{
+      position: relative;
+      right: 100px;
     }
+  }
 }
