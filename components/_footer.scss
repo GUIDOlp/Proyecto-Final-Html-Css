@@ -57,8 +57,7 @@ footer{
         width: 180px;
     }
     .copyright{
-        color: $colorocho;
-        font-size: $fontsize3;
-        text-align: center;
+      @extend .seccionPreguntasfrecuentes;
+      color: $colorocho;
     }
 }

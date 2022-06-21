@@ -58,21 +58,21 @@ ul li {
   color: black;
   font-size: 25px;
 }
-.categoriaCosmeticos article {
+.categoriaCosmeticos .subcategorias {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.categoriaCosmeticos article span {
+.categoriaCosmeticos .subcategorias span {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.categoriaCosmeticos article span .categorias {
+.categoriaCosmeticos .subcategorias span .categorias {
   background-color: #A25B5B;
   color: black;
   padding: 10px 15px;
 }
-.categoriaCosmeticos article span .categorias:hover {
+.categoriaCosmeticos .subcategorias span .categorias:hover {
   color: dimgray;
 }
 
@@ -117,23 +117,23 @@ ul li {
 .mainGrid .galeria .galeriaProductos {
   width: 240px;
 }
-.mainGrid .galeria h3 {
+.mainGrid .galeria h4 {
   text-align: center;
   margin-top: 10px;
   background-color: cadetblue;
 }
-.mainGrid .galeria h3 .fotoProductos {
+.mainGrid .galeria h4 .fotoProductos {
   text-decoration: none;
   color: black;
   font-size: 20px;
 }
-.mainGrid .galeria h3 .fotoProductos:hover {
+.mainGrid .galeria h4 .fotoProductos:hover {
   color: #A25B5B;
 }
 
 /* Main nosotros*/
 
-.seccionNosotros h2 {
+.seccionNosotros h3 {
   text-align: center;
   color: rgb(27, 205, 205);
 }
@@ -154,7 +154,7 @@ ul li {
 .seccionContacto p .logoInstagram {
   width: 35px;
 }
-.seccionContacto h4 {
+.seccionContacto h3 {
   font-size: 25px;
   margin-left: 20px;
   color: black;
@@ -179,35 +179,35 @@ ul li {
 
 /*main preg frecuentes*/
 
-.seccionPreguntasfrecuentes {
+.seccionPreguntasfrecuentes, footer .copyright {
   text-align: center;
   font-size: 20px;
 }
-.seccionPreguntasfrecuentes h3 {
+.seccionPreguntasfrecuentes h3, footer .copyright h3 {
   color: rgb(27, 205, 205);
   margin-top: 20px;
 }
-.seccionPreguntasfrecuentes p {
+.seccionPreguntasfrecuentes p, footer .copyright p {
   text-align: justify;
   margin-left: 25px;
   margin-right: 25px;
 }
-.seccionPreguntasfrecuentes h4 {
+.seccionPreguntasfrecuentes h4, footer .copyright h4 {
   text-align: left;
   margin-left: 20px;
 }
-.seccionPreguntasfrecuentes span {
+.seccionPreguntasfrecuentes span, footer .copyright span {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.seccionPreguntasfrecuentes span .mediosDepago {
+.seccionPreguntasfrecuentes span .mediosDepago1, footer .copyright span .mediosDepago1 {
   width: 60px;
 }
-.seccionPreguntasfrecuentes span .mediosDepago1 {
+.seccionPreguntasfrecuentes span .mediosDepago2, footer .copyright span .mediosDepago2 {
   width: 80px;
 }
-.seccionPreguntasfrecuentes span .mediosDepago2 {
+.seccionPreguntasfrecuentes span .mediosDepago3, footer .copyright span .mediosDepago3 {
   width: 110px;
 }
 
@@ -273,8 +273,6 @@ footer .iframe {
 }
 footer .copyright {
   color: white;
-  font-size: 20px;
-  text-align: center;
 }
 
 /* media queries/ mobile first */

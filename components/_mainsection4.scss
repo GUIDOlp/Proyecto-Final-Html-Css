@@ -2,6 +2,10 @@
 @import "../scss/tipografias";
 
 /* Main contacto*/
+@mixin contacto ($margen, $tipografia ) {
+    margin-left: $margen;
+    font-size: $tipografia;
+}
 .seccionContacto{
     p{
         font-size: $fontsize2;
@@ -10,27 +14,23 @@
             width: 35px;
          }
     }
-    h4{
+    h3{
         font-size: $fontsize2;
         margin-left: 20px;
         color: $colortres;
         text-align: center;
     }
     .nombreContacto{
-        margin-left: 20px;
-        font-size: $fontsize2;
+        @include contacto(20px, 25px )
     }
     .apellidoContacto{
-        margin-left: 20px;
-        font-size: $fontsize2;
+        @include contacto(20px, 25px )
     }
     .emailContacto{
-        margin-left: 20px;
-        font-size: $fontsize2;
+        @include contacto(20px, 25px )
     }
     .mensaje{
-        margin-left: 20px;
-        font-size: $fontsize2;
+        @include contacto(20px, 25px )
     }
 }
 
