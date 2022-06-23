@@ -43,7 +43,7 @@ ul li {
   margin-right: 30px;
 }
 .slide img {
-  height: 90vh;
+  height: 80vh;
 }
 
 .fotoLogo {
@@ -277,6 +277,16 @@ footer .copyright {
 
 /* media queries/ mobile first */
 
+@media (min-width: 651px) and (max-width: 1000px) {
+  .slide img {
+    height: 70vh;
+  }
+}
+@media (min-width: 351px) and (max-width: 650px) {
+  .slide img {
+    height: 60vh;
+  }
+}
 @media (max-width: 350px) {
   .slide img {
     height: 50vh;

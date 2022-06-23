@@ -1,7 +1,22 @@
  // media queries
 
  /* media queries/ mobile first */
-@media (max-width: 350px) {
+
+@media (min-width: 651px) and (max-width: 1000px) {
+  .slide{
+    img{
+      height: 70vh;
+    }
+  }
+} 
+@media (min-width: 351px) and (max-width: 650px) {
+  .slide{
+    img{
+      height: 60vh;
+    }
+  }
+}
+ @media (max-width: 350px) {
   .slide {
     img{
       height: 50vh;
@@ -77,6 +92,7 @@
       }
     } 
   }
+   
 @media (min-width:453px) and (max-width: 495px) {
     footer{
       .contenedorCarritofooter{
