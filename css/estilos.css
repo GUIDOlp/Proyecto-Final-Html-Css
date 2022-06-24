@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
 }
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
 body {
@@ -117,11 +116,11 @@ ul li {
 }
 .mainGrid .galeria .galeriaProductos {
   width: 240px;
-  padding: 5px 5px;
+  padding: 5 5px;
 }
 .mainGrid .galeria h4 {
   text-align: center;
-  margin: 10px 5px;
+  margin: 10 5px;
   background-color: cadetblue;
 }
 .mainGrid .galeria h4 .fotoProductos {
