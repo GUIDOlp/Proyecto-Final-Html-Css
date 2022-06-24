@@ -63,7 +63,11 @@
     }
   } 
 }
-
+@media (max-width: 479px) {
+  .mainGrid{
+    background-image: url(../imagenes/marcos.jpeg);
+  }
+}
 @media (max-width: 1230px) {
     .mainGrid{
         display: grid;
@@ -72,7 +76,18 @@
         grid-template-columns: 100%;
     }
 }
-
+@media (min-width: 480px) and (max-width: 560px) {
+  .mainGrid{
+    .galeria{
+      .galeriaProductos{
+        padding: 10px;
+      }
+       h4{
+          margin: 0px 10px;
+       }
+    }
+  }
+}
 @media (max-width: 300px) {
     .mainGrid{
       .galeria{
