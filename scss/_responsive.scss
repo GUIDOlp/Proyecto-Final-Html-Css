@@ -79,21 +79,26 @@
 @media (min-width: 480px) and (max-width: 560px) {
   .mainGrid{
     .galeria{
-      .galeriaProductos{
-        padding: 10px;
-      }
-       h4{
+      .card{
+        .galeriaProductos{
+          padding: 10px;
+          box-shadow: none;
+        }
+        h4{
           margin: 0px 10px;
        }
-    }
+      }
+   }
   }
 }
 @media (max-width: 300px) {
     .mainGrid{
       .galeria{
-        .galeriaProductos{
-          width: 200px;
-        }
+        .card{
+          .galeriaProductos{
+            width: 200px;
+          }
+        }    
       }
     } 
   }
@@ -101,12 +106,14 @@
 @media (min-width: 180px) and (max-width: 230px) {
     .mainGrid{
       .galeria{
-        .galeriaProductos{
-          width: 160px;
-        }
+        .card{
+          .galeriaProductos{
+            width: 160px;
+        } 
       }
     } 
   }
+}
    
 @media (min-width:453px) and (max-width: 495px) {
     footer{
