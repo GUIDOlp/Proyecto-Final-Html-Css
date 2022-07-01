@@ -1,9 +1,10 @@
 /* Reset*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -222,6 +223,36 @@ ul li {
 }
 .seccionPreguntasfrecuentes span .mediosDepago3, footer .copyright span .mediosDepago3 {
   width: 110px;
+}
+
+/* main crear cuenta*/
+.crearCuenta h1{
+  font-size: 25px;
+  margin-left: 20px;
+}
+.crearCuenta p{
+  text-align: center;
+}
+.crearCuenta .botonCuenta{
+  background-color:black;
+  color: white;
+  padding: 5px 5px;
+}
+.iniciarSesion p{
+font-size: 23px;
+margin-left: 20px;
+margin-top: 20px;
+}
+.iniciarSesion .password{
+  font-size: 15px;
+  position: relative;
+  top: -5px;
+  right: 20px;
+}
+.iniciarSesion .botonCuenta2{
+  background-color:black;
+  color: white;
+  padding: 5px 5px;
 }
 
 /* footer*/

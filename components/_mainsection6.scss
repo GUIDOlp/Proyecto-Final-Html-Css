@@ -1,0 +1,37 @@
+@import "../scss/colores";
+@import "../scss/tipografias";
+
+/* Main crear cuenta*/
+.crearCuenta{
+    h1{
+        font-size: $fontsize2;
+        margin-left:  20px;
+    }
+    p{
+        text-align: center;
+    }
+    .botonCuenta{
+        background-color: $colortres;
+        color: $colorocho;
+        padding: 5px 5px;
+    }
+}
+
+.iniciarSesion{
+    p{
+        font-size: $fontsize1;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+     .password{
+        font-size: $fontsize6;
+        position: relative;
+        top: -5px;
+        right: 20px;
+     }
+      .botonCuenta2{
+        background-color: $colortres;
+        color: $colorocho;
+        padding: 5px 5px;
+      }
+}
