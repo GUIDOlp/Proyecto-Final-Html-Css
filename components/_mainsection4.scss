@@ -32,6 +32,11 @@
     .mensaje{
         @include contacto(20px, 25px )
     }
+    .botonEnviar-contacto{
+        background-color: $colortres;
+        color: $colorocho;
+        padding: 5px 5px
+    }
 }
 
 

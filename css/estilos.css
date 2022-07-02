@@ -191,6 +191,11 @@ ul li {
   margin-left: 20px;
   font-size: 25px;
 }
+.seccionContacto .botonEnviar-contacto {
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+}
 
 /*main preg frecuentes*/
 .seccionPreguntasfrecuentes, footer .copyright {
@@ -225,32 +230,33 @@ ul li {
   width: 110px;
 }
 
-/* main crear cuenta*/
-.crearCuenta h1{
+/* Main crear cuenta*/
+.crearCuenta h1 {
   font-size: 25px;
   margin-left: 20px;
 }
-.crearCuenta p{
+.crearCuenta p {
   text-align: center;
 }
-.crearCuenta .botonCuenta{
-  background-color:black;
+.crearCuenta .botonCuenta {
+  background-color: black;
   color: white;
   padding: 5px 5px;
 }
-.iniciarSesion p{
-font-size: 23px;
-margin-left: 20px;
-margin-top: 20px;
+
+.iniciarSesion p {
+  font-size: 23px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
-.iniciarSesion .password{
+.iniciarSesion .password {
   font-size: 15px;
   position: relative;
   top: -5px;
   right: 20px;
 }
-.iniciarSesion .botonCuenta2{
-  background-color:black;
+.iniciarSesion .botonCuenta2 {
+  background-color: black;
   color: white;
   padding: 5px 5px;
 }
